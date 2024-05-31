@@ -1,0 +1,26 @@
+{
+  "name": "crud-api",
+  "version": "1.0.0",
+  "description": "Rest apis for login system with product category",
+  "main": "app.js",
+  "scripts": {
+    "test": "npm app"
+  },
+  "keywords": [
+    "crud-api"
+  ],
+  "author": "Open Eye",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "ajv": "^8.14.0",
+    "base64-img": "^1.0.4",
+    "bcrypt": "^5.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "jsonwebtoken": "^9.0.2",
+    "mysql": "^2.18.1",
+    "sequelize": "^6.37.3",
+    "sqlite3": "^5.1.7"
+  }
+}
